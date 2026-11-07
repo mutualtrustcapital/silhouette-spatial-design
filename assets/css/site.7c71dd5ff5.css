@@ -556,3 +556,10 @@ body.lb-open{overflow:hidden}
 @media (max-width:860px){.edge-sig{grid-template-columns:1fr;gap:22px;margin-top:32px}.edge-sig blockquote,.edge-sig figcaption{grid-column:1;grid-row:auto;padding-top:0}}
 .prose .pull-sig blockquote{margin:0}
 .prose .pull-sig figcaption{margin-top:18px;font-family:var(--sans);font-style:normal;font-size:10.5px;line-height:1.6;letter-spacing:.26em;text-transform:uppercase;font-weight:500;color:var(--umber)}
+
+/* Founder page link-ups (About › founder card, home quote attribution) */
+.founder-card .founder-photo{display:block}
+.founder-card .founder-note{margin:12px 0 0;font-size:14.5px;line-height:1.7;color:var(--umber);font-weight:300;max-width:40ch}
+.founder-card .link{margin-top:18px;display:inline-flex}
+.edge-sig figcaption a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule);padding-bottom:2px}
+.edge-sig figcaption a:hover{border-color:var(--espresso)}
