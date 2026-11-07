@@ -544,3 +544,15 @@ body.lb-open{overflow:hidden}
   .hero:has(.hero-sketch) .hero-in{padding-top:calc(var(--navh) + 44svh)}
   .hero:has(.hero-sketch) .hero-shade{background:linear-gradient(to top,rgba(63,55,49,.55) 0%,rgba(63,55,49,0) 40%)}
 }
+
+/* Founder's line — Mannat's own words (client direction, 7 Nov 2026).
+   Home: closes "Architecturally trained. Interior led."  About: pull quote under The founder. */
+.edge-sig{margin:clamp(56px,6vw,96px) 0 0;padding-top:clamp(32px,3.4vw,48px);border-top:1px solid var(--rule);display:grid;grid-template-columns:1fr 2fr;gap:40px;align-items:start}
+.edge-sig blockquote{grid-column:2;grid-row:1;margin:0}
+.edge-sig blockquote p{margin:0;max-width:31ch;font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(25px,2.7vw,40px);line-height:1.3;color:var(--espresso)}
+.edge-sig blockquote span{display:block;margin-top:.55em}
+.edge-sig figcaption{grid-column:1;grid-row:1;margin:0;padding-top:.85em;font-family:var(--sans);font-style:normal;font-size:11px;letter-spacing:.3em;text-transform:uppercase;font-weight:500;color:var(--espresso)}
+.edge-sig figcaption span{display:block;margin-top:9px;color:var(--umber);letter-spacing:.22em;font-weight:400}
+@media (max-width:860px){.edge-sig{grid-template-columns:1fr;gap:22px;margin-top:32px}.edge-sig blockquote,.edge-sig figcaption{grid-column:1;grid-row:auto;padding-top:0}}
+.prose .pull-sig blockquote{margin:0}
+.prose .pull-sig figcaption{margin-top:18px;font-family:var(--sans);font-style:normal;font-size:10.5px;line-height:1.6;letter-spacing:.26em;text-transform:uppercase;font-weight:500;color:var(--umber)}
