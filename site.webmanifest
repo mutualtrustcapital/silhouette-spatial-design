@@ -1,0 +1,27 @@
+{
+  "name": "Silhouette Spatial Design",
+  "short_name": "Silhouette",
+  "description": "Silhouette Spatial Design is an interior design studio based in Auckland, New Zealand, led by Mannat Khurana. The studio designs luxury homes and commercial spaces across New Zealand, Australia and internationally \u2014 interior design, bespoke furniture, lighting and art, sourcing and implementation, 3D visualisation, landscape and architectural design.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "browser",
+  "background_color": "#F2F0EC",
+  "theme_color": "#3F3731",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
